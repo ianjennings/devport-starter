@@ -21,7 +21,7 @@
 </div>
 <div class="container">
 
-  <form action="http://localhost:1337/email/contact/{{me.username}}" method="post" id="contact">
+  <form action="http://devport.co/email/contact/{{me.username}}" method="post" id="contact">
 
     <div class="row">
       <div class="col-md-4 col-md-offset-2">

@@ -9,7 +9,7 @@
         {{#me.avatar}}
           <img src="{{file.location}}" class="avatar" />
         {{/me.avatar}}
-        <h1>Hey there, I'm {{me.firstname}}.</h1>
+        <h1>Hey there, I'm {{me.name}}.</h1>
 
         <p>{{me.about}}</p>
         <p>
