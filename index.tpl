@@ -29,7 +29,7 @@
 
     {{#each projects}}
     <div class="col-md-6">
-      <a href="/projects/{{friendly}}" class="project-thumb" style="background-image: url('{{activeAsset.file.location}}')">
+      <a href="/projects/{{friendly}}" class="project-thumb" style="background-image: url('{{active_asset.file.location}}')">
         <div class="overlay"></div>
         <div class="details">
           <h3>{{name}}</h3>

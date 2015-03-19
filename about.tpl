@@ -9,9 +9,9 @@
         {{#me.avatar}}
           <img src="{{file.location}}" class="avatar" />
         {{/me.avatar}}
-        <h3>{{me.name}}</h3>
+        <h2>{{me.name}}</h2>
 
-        <p>{{me.about}}</p>
+        <h6>{{me.about}}</h6>
 
       </div>
     </div>
