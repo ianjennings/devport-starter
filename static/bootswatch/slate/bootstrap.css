@@ -7111,7 +7111,7 @@ footer * {
 }
 .asset-gallery #links a:first-child {
   margin-bottom: 50px;
-  background-position: center center;
+  background-position: top center;
   -webkit-background-size: cover;
           background-size: cover;
   max-width: 100%;
