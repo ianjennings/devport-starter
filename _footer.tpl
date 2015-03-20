@@ -3,7 +3,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
-            Powered by <a href="http://developerportfolio.com">DevPort</a>
+            Powered by <a href="http://devport.co">DevPort</a>
           </div>
         </div>
       </div>

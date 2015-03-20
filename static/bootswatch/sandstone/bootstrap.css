@@ -6803,6 +6803,7 @@ footer * {
           background-size: cover;
   width: 100%;
   height: 200px;
+  position: relative;
 }
 .project-thumb .overlay {
   -webkit-transition: all 0.2s ease-in-out;
@@ -6835,4 +6836,7 @@ footer * {
 .project-thumb .details p {
   margin-top: 10px;
   opacity: .9;
+}
+.image-limit img {
+  max-width: 100%;
 }

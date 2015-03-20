@@ -21,7 +21,7 @@
 </div>
 <div class="container">
   <div class="row">
-    <div class="col-md-8 col-md-offset-2">
+    <div class="col-md-8 col-md-offset-2 image-limit">
       <div id="bio">
         {{{me.bio_html}}}
       </div>
