@@ -18,6 +18,17 @@
     <link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
     <link rel="stylesheet" href="/static/bootstrap-gallery/css/bootstrap-image-gallery.min.css">
 
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@devport">
+    <meta name="twitter:title" content="Page Title">
+    <meta name="twitter:description" content="{{me.username}}'s Portfolio">
+
+    <meta property="og:title" content="{{me.username}}'s Portfolio" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="{{me.username}}.developerportfolio.com" />
+    <meta property="og:description" content="{{me.about}}" />
+    <meta property="og:site_name" content="DevPort" />
+
   </head>
 
   <body>
