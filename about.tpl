@@ -11,7 +11,7 @@
         {{/me.avatar}}
         <h2>{{me.name}}</h2>
 
-        <h6>{{me.about}}</h6>
+        <p>{{me.about}}</p>
 
       </div>
     </div>
