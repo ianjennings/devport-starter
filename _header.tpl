@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{{me.username}}'s Portfolio</title>
+    <title>{{me.username}}.devport.co</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
@@ -18,12 +18,15 @@
     <link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
     <link rel="stylesheet" href="/static/bootstrap-gallery/css/bootstrap-image-gallery.min.css">
 
+    <link rel="shortcut icon" href="http://devport.co/wp-content/uploads/2015/03/logo-suitcase-100.png" />
+
+    <meta name="twitter:title" content="{{me.username}}'s Portfolio">
+    <meta property="og:title" content="{{me.username}}'s Portfolio" />
+
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@devport">
-    <meta name="twitter:title" content="Page Title">
-    <meta name="twitter:description" content="{{me.username}}'s Portfolio">
+    <meta name="twitter:description" content="{{me.about}}">
 
-    <meta property="og:title" content="{{me.username}}'s Portfolio" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="{{me.username}}.developerportfolio.com" />
     <meta property="og:description" content="{{me.about}}" />
