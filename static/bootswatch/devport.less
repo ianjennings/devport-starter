@@ -94,9 +94,6 @@ footer {
     box-shadow: 0px 0px 3px rgba(0, 0, 0, .3);
   }
 }
-hr.tpl {
-  margin: @large-padding;
-}
 .jumbotron {
   margin-bottom: 0px;
   &.sub {
@@ -108,14 +105,13 @@ hr.tpl {
 .projects {
   padding-bottom: @large-padding;
 }
-.list-item {
-  margin-bottom: 30px;
-  padding-bottom: 30px;
-  border-bottom: 1px solid #EFEFEF;
-  &:first-child {
-    margin-top: 0px;
-    padding-top: 30px;
-    border-top: 1px solid #EFEFEF;
+.list-items {
+  hr {
+    opacity: .2;
+    border-top: 1px solid @text-color;
+    &:first-child {
+      margin-top: 0px;
+    }
   }
   p {
     margin: 10px 0px;

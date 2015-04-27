@@ -48,8 +48,9 @@
       </div>
     </div>
   </div>
-  {{#if project.name}}
   <div class="list-items">
+    {{#if project.name}}
+    <hr />
     <div class="row list-item">
       <div class="col-md-2 col-md-offset-4">
         <p><strong>Title</strong></p>
@@ -58,6 +59,7 @@
         <p>{{project.name}}</p>
       </div>
     </div>
+    <hr />
     {{/if}}
     {{#if project.date}}
     <div class="row list-item">
@@ -68,6 +70,7 @@
         <p>{{project.date}}</p>
       </div>
     </div>
+    <hr />
     {{/if}}
     {{#if project.client}}
     <div class="row list-item">
@@ -78,6 +81,7 @@
         <p>{{project.client}}</p>
       </div>
     </div>
+    <hr />
     {{/if}}
     {{#if project.link}}
     <div class="row list-item">
@@ -88,6 +92,7 @@
         <p><a href="{{project.link}}" class="btn btn-primary"><i class="fa fa-external-link"></i> Visit</a></p>
       </div>
     </div>
+    <hr />
     {{/if}}
     {{#if project.text_html}}
   </div>
