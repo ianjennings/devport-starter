@@ -53,5 +53,23 @@
       {{{project.text_html}}}
     </div>
   </div>
+  <div class="row">
+    {{#project.client}}
+    <div class="col-md-2 col-md-offset-2">
+      <p>Client</p>
+    </div>
+    <div class="col-md-6">
+      <p>{{project.client}}</p>
+    </div>
+    {{/project.client}}
+    {{#project.link}}
+    <div class="col-md-2 col-md-offset-2">
+      <p>Link</p>
+    </div>
+    <div class="col-md-6">
+      <p>{{project.link}}</p>
+    </div>
+    {{/project.link}}
+  </div>
 </div>
 {{>_footer}}

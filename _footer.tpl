@@ -2,7 +2,10 @@
     <footer class="footer">
       <div class="container">
         <div class="row">
-          <div class="col-md-12 text-center">
+          <div class="col-md-6">
+            <i class="fa fa-briefcase"></i>&nbsp;&nbsp;&nbsp;Powered by <a href="http://devport.co">DevPort</a>
+          </div>
+          <div class="col-md-6 text-center">
             Powered by <a href="http://devport.co">DevPort</a>
           </div>
         </div>
