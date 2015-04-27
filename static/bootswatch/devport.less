@@ -57,7 +57,7 @@ footer {
   }
 }
 #bio {
-  padding-bottom: @large-padding;
+  margin: @large-padding 0px;
 }
 #contact {
   padding: @large-padding 0px;
@@ -97,11 +97,18 @@ footer {
 hr.tpl {
   margin: @large-padding;
 }
+.jumbotron {
+  margin-bottom: 0px;
+  &.sub {
+    p {
+      font-size: 15px;
+    }
+  }
+}
 .projects {
   padding-bottom: @large-padding;
 }
 .list-item {
-  margin-top: 30px;
   margin-bottom: 30px;
   padding-bottom: 30px;
   border-bottom: 1px solid #EFEFEF;
@@ -111,7 +118,20 @@ hr.tpl {
     border-top: 1px solid #EFEFEF;
   }
   p {
-    margin-bottom: 0px;
+    margin: 10px 0px;
+  }
+}
+.sharing-center {
+  a {
+    margin: 0px 3px;
+  }
+}
+.sharing-footer {
+  position: absolute;
+  right: 0px;
+  a {
+    margin-left: 20px;
+    font-size: 24px;
   }
 }
 .details {
@@ -162,9 +182,13 @@ hr.tpl {
     margin-right: 10px;
     display: inline-block;
   }
-  &:hover {
+  &:hover,  {
     color: @text-color;
     opacity: .9;
+  }
+  &:active {
+    color: @text-color;
+    opacity: 1;
   }
 }
 .project-thumb {

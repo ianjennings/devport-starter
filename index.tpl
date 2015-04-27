@@ -28,30 +28,32 @@
   <div class="row">
 
     <div class="col-md-10 col-md-offset-1 projects">
+      <div class="row">
       {{#each projects}}
-      <div class="col-md-6">
-        <a href="/projects/{{friendly}}" class="project-thumb" style="background-image: url('{{active_asset.file.location}}')">
-        </a>
-        <div class="details">
-          <div class="text">
-            <h3>
-              <a href="/projects/{{friendly}}">{{name}}</a></h3>
-            <p>{{client}}</p>
+        <div class="col-md-6">
+          <a href="/projects/{{friendly}}" class="project-thumb" style="background-image: url('{{active_asset.file.location}}')">
+          </a>
+          <div class="details">
+            <div class="text">
+              <h3>
+                <a href="/projects/{{friendly}}">{{name}}</a></h3>
+              <p>{{client}}</p>
 
-            <div class="buttons">
+              <div class="buttons">
 
-              <a class="btn btn-ghost btn-sm more" href="/projects/{{friendly}}" target="_blank" role="button"><i class="fa fa-info"></i>Info</a>
+                <a class="btn btn-ghost btn-sm more" href="/projects/{{friendly}}" target="_blank" role="button"><i class="fa fa-info"></i>Info</a>
 
-              {{#if project.link}}
-              <a class="btn btn-ghost btn-sm visit" href="{{project.link}}" target="_blank" role="button"><i class="fa fa-external-link"></i>Visit</a>
-              {{/if}}
+                {{#if project.link}}
+                <a class="btn btn-ghost btn-sm visit" href="{{project.link}}" target="_blank" role="button"><i class="fa fa-external-link"></i>Visit</a>
+                {{/if}}
+
+              </div>
 
             </div>
-
           </div>
         </div>
-      </div>
       {{/each}}
+      </div>
     </div>
 
   </div>

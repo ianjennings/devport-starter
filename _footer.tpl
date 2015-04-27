@@ -2,11 +2,17 @@
     <footer class="footer">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-12">
             <i class="fa fa-briefcase"></i>&nbsp;&nbsp;&nbsp;Powered by <a href="http://devport.co">DevPort</a>
-          </div>
-          <div class="col-md-6 text-center">
-            Powered by <a href="http://devport.co">DevPort</a>
+            <span class="sharing-footer">
+              {{#if me.handle_github}}
+              <a href="http://github.com/{{me.handle_github}}"><i class="fa fa-github"></i></a>
+              {{/if}}
+              {{#if me.handle_twitter}}
+              <a href="http://twitter.com/{{me.handle_twitter}}"><i class="fa fa-twitter"></i></a>
+              {{/if}}
+              <a href="/contact"><i class="fa fa-envelope"></i></a>
+            </span>
           </div>
         </div>
       </div>

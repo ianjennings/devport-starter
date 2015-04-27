@@ -1,5 +1,5 @@
 {{>_header}}
-<div class="jumbotron">
+<div class="jumbotron sub">
 
   <div class="container">
 
@@ -12,6 +12,15 @@
         <h2>{{me.name}}</h2>
 
         <p>{{me.about}}</p>
+
+        <p class="sharing-center">
+          {{#if me.handle_github}}
+          <a  class="btn btn-ghost"  href="http://github.com/{{me.handle_github}}"><i class="fa fa-github"></i> GitHub</a>
+          {{/if}}
+          {{#if me.handle_twitter}}
+          <a class="btn btn-ghost" href="http://twitter.com/{{me.handle_twitter}}"><i class="fa fa-twitter"></i> Twitter</a>
+          {{/if}}
+        </p>
 
       </div>
     </div>

@@ -6759,7 +6759,7 @@ footer * {
   display: block;
 }
 #bio {
-  padding-bottom: 50px;
+  margin: 50px 0px;
 }
 #contact {
   padding: 50px 0px;
@@ -6803,11 +6803,16 @@ footer * {
 hr.tpl {
   margin: 50px;
 }
+.jumbotron {
+  margin-bottom: 0px;
+}
+.jumbotron.sub p {
+  font-size: 15px;
+}
 .projects {
   padding-bottom: 50px;
 }
 .list-item {
-  margin-top: 30px;
   margin-bottom: 30px;
   padding-bottom: 30px;
   border-bottom: 1px solid #EFEFEF;
@@ -6818,7 +6823,18 @@ hr.tpl {
   border-top: 1px solid #EFEFEF;
 }
 .list-item p {
-  margin-bottom: 0px;
+  margin: 10px 0px;
+}
+.sharing-center a {
+  margin: 0px 3px;
+}
+.sharing-footer {
+  position: absolute;
+  right: 0px;
+}
+.sharing-footer a {
+  margin-left: 20px;
+  font-size: 24px;
 }
 .details {
   width: 100%;
@@ -6873,6 +6889,10 @@ hr.tpl {
 .btn-ghost:hover {
   color: #333333;
   opacity: .9;
+}
+.btn-ghost:active {
+  color: #333333;
+  opacity: 1;
 }
 .project-thumb {
   margin-top: 60px;

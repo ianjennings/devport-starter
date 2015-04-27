@@ -50,7 +50,9 @@
         <div id="navbar" class="navbar-collapse collapse">
            <ul class="nav navbar-nav navbar-right">
              <li><a href="/projects">Work</a></li>
+             {{#if me.bio}}
              <li><a href="/about">About</a></li>
+             {{/if}}
              <li><a href="/contact">Contact</a></li>
            </ul>
          </div><!--/.nav-collapse -->
