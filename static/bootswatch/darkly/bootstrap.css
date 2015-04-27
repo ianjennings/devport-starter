@@ -6838,6 +6838,9 @@ a.list-group-item-danger.active:focus {
   margin-bottom: 0px;
   border-radius: 0px;
 }
+h1 {
+  font-size: 24px;
+}
 #project-header h1 {
   margin: 50px auto;
   text-align: center;
@@ -6874,9 +6877,6 @@ footer * {
 #bio {
   padding-bottom: 50px;
 }
-#project {
-  padding-bottom: 50px;
-}
 #contact {
   padding: 50px 0px;
 }
@@ -6906,8 +6906,8 @@ footer * {
 .asset-gallery #links a:first-child {
   margin-bottom: 50px;
   background-position: top center;
-  -webkit-background-size: cover;
-          background-size: cover;
+  -webkit-background-size: contain;
+          background-size: contain;
   max-width: 100%;
   width: 100%;
   height: 500px;
@@ -6916,19 +6916,88 @@ footer * {
   -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
           box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
 }
+hr.tpl {
+  margin: 50px;
+}
+.projects {
+  padding-bottom: 50px;
+}
+.list-item {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #EFEFE4;
+}
+.list-item p {
+  margin-bottom: 0px;
+}
+.details {
+  width: 100%;
+  display: block;
+  margin-top: 20px;
+}
+.details .text {
+  display: block;
+  position: relative;
+  padding-right: 140px;
+  height: 60px;
+}
+.details .text h3,
+.details .text p {
+  margin: 15px;
+  margin-left: 0px;
+  color: #ffffff;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.details .text h3 {
+  font-size: 18px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+.details .text p {
+  font-size: 14px;
+  margin-top: 10px;
+  opacity: .9;
+}
+.details .text .buttons {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.details .text .buttons a {
+  margin-left: 7px;
+}
+.btn-ghost {
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  color: #ffffff;
+  opacity: .4;
+}
+.btn-ghost .fa {
+  margin-right: 10px;
+  display: inline-block;
+}
+.btn-ghost:hover {
+  color: #ffffff;
+  opacity: .9;
+}
 .project-thumb {
+  margin-top: 60px;
   display: block;
   overflow: hidden;
   border-radius: 3px;
   margin-bottom: 21px;
-  background-position: center center;
+  background-position: top center;
   -webkit-background-size: cover;
           background-size: cover;
   width: 100%;
-  height: 200px;
+  height: 207px;
   position: relative;
-  -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
   opacity: .7;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -6946,38 +7015,9 @@ footer * {
   -o-transition: all 0.2s ease-in-out;
      transition: all 0.2s ease-in-out;
 }
-.project-thumb .details {
-  position: absolute;
-  width: 100%;
-  display: block;
-  bottom: -200px;
-  -webkit-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-     transition: all 0.2s ease-in-out;
+.readme {
+  margin: 50px;
 }
-.project-thumb .details .text {
-  display: block;
-  border-bottom-right-radius: 3px;
-  border-bottom-left-radius: 3px;
-  position: absolute;
-  background-color: #222222;
-  z-index: 2;
-  opacity: 0.9;
-  bottom: 0;
-}
-.project-thumb .details .text h3,
-.project-thumb .details .text p {
-  margin: 15px;
-  color: #ffffff;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-.project-thumb .details .text h3 {
-  margin-bottom: 0px;
-}
-.project-thumb .details .text p {
-  margin-top: 10px;
-  opacity: .9;
-}
-.image-limit img {
+.readme img {
   max-width: 100%;
 }

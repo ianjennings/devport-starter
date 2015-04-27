@@ -48,28 +48,54 @@
       </div>
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-8 col-md-offset-2 image-limit">
+  {{#if project.name}}
+  <div class="list-items">
+    <div class="row list-item">
+      <div class="col-md-2 col-md-offset-4">
+        <p><strong>Title</strong></p>
+      </div>
+      <div class="col-md-4">
+        <p>{{project.name}}</p>
+      </div>
+    </div>
+    {{/if}}
+    {{#if project.date}}
+    <div class="row list-item">
+      <div class="col-md-2 col-md-offset-4">
+        <p><strong>Date</strong></p>
+      </div>
+      <div class="col-md-4">
+        <p>{{project.date}}</p>
+      </div>
+    </div>
+    {{/if}}
+    {{#if project.client}}
+    <div class="row list-item">
+      <div class="col-md-2 col-md-offset-4">
+        <p><strong>Client</strong></p>
+      </div>
+      <div class="col-md-4">
+        <p>{{project.client}}</p>
+      </div>
+    </div>
+    {{/if}}
+    {{#if project.link}}
+    <div class="row list-item">
+      <div class="col-md-2 col-md-offset-4">
+        <p><strong>Live Project</strong></p>
+      </div>
+      <div class="col-md-4">
+        <p><a href="{{project.link}}" class="btn btn-primary"><i class="fa fa-external-link"></i> Visit</a></p>
+      </div>
+    </div>
+    {{/if}}
+    {{#if project.text_html}}
+  </div>
+  <div class="row readme">
+    <div class="col-md-8 col-md-offset-2">
       {{{project.text_html}}}
     </div>
   </div>
-  <div class="row">
-    {{#project.client}}
-    <div class="col-md-2 col-md-offset-2">
-      <p>Client</p>
-    </div>
-    <div class="col-md-6">
-      <p>{{project.client}}</p>
-    </div>
-    {{/project.client}}
-    {{#project.link}}
-    <div class="col-md-2 col-md-offset-2">
-      <p>Link</p>
-    </div>
-    <div class="col-md-6">
-      <p>{{project.link}}</p>
-    </div>
-    {{/project.link}}
-  </div>
+  {{/if}}
 </div>
 {{>_footer}}

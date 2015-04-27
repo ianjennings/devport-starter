@@ -6761,9 +6761,6 @@ footer * {
 #bio {
   padding-bottom: 50px;
 }
-#project {
-  padding-bottom: 50px;
-}
 #contact {
   padding: 50px 0px;
 }
@@ -6803,8 +6800,25 @@ footer * {
   -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
           box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
 }
+hr.tpl {
+  margin: 50px;
+}
 .projects {
-  padding-bottom: 60px;
+  padding-bottom: 50px;
+}
+.list-item {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #EFEFEF;
+}
+.list-item:first-child {
+  margin-top: 0px;
+  padding-top: 30px;
+  border-top: 1px solid #EFEFEF;
+}
+.list-item p {
+  margin-bottom: 0px;
 }
 .details {
   width: 100%;
@@ -6815,6 +6829,7 @@ footer * {
   display: block;
   position: relative;
   padding-right: 140px;
+  height: 60px;
 }
 .details .text h3,
 .details .text p {
@@ -6830,6 +6845,7 @@ footer * {
   font-size: 18px;
   margin-bottom: 0px;
   font-weight: bold;
+  line-height: 1.3em;
 }
 .details .text p {
   font-size: 14px;
@@ -6889,6 +6905,9 @@ footer * {
   -o-transition: all 0.2s ease-in-out;
      transition: all 0.2s ease-in-out;
 }
-.image-limit img {
+.readme {
+  margin: 50px;
+}
+.readme img {
   max-width: 100%;
 }

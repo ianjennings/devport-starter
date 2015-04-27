@@ -42,7 +42,9 @@
 
               <a class="btn btn-ghost btn-sm more" href="/projects/{{friendly}}" target="_blank" role="button"><i class="fa fa-info"></i>Info</a>
 
+              {{#if project.link}}
               <a class="btn btn-ghost btn-sm visit" href="{{project.link}}" target="_blank" role="button"><i class="fa fa-external-link"></i>Visit</a>
+              {{/if}}
 
             </div>
 
