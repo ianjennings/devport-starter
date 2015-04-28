@@ -6774,6 +6774,7 @@ h1 {
 }
 html {
   min-height: 100%;
+  position: relative;
 }
 body {
   margin-bottom: 50px;
