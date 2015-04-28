@@ -5,6 +5,7 @@
         <h1><a href="/projects/{{friendly}}">{{project.name}}</a></h1>
     </div>
   </div>
+  {{#if project.assets}}
   <div class="row">
     <div class="asset-gallery col-md-12">
       <div id="links">
@@ -48,6 +49,7 @@
       </div>
     </div>
   </div>
+  {{/if}}
   <div class="list-items">
     {{#if project.name}}
     <hr />
@@ -94,8 +96,8 @@
     </div>
     <hr />
     {{/if}}
-    {{#if project.text_html}}
   </div>
+  {{#if project.text_html}}
   <div class="row readme">
     <div class="col-md-8 col-md-offset-2">
       {{{project.text_html}}}

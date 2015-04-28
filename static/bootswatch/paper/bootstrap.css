@@ -7303,7 +7303,6 @@ h1 {
   text-align: center;
 }
 html {
-  position: relative;
   min-height: 100%;
 }
 body {
@@ -7316,6 +7315,7 @@ footer {
   background-color: #ffffff;
   height: 64px;
   line-height: 64px;
+  left: 0;
 }
 footer a {
   text-decoration: underline;
@@ -7365,6 +7365,7 @@ footer * {
   background-position: top center;
   -webkit-background-size: contain;
           background-size: contain;
+  background-repeat: no-repeat;
   max-width: 100%;
   width: 100%;
   height: 500px;
@@ -7397,7 +7398,8 @@ footer * {
 }
 .sharing-footer {
   position: absolute;
-  right: 0px;
+  right: 15px;
+  height: 1em;
 }
 .sharing-footer a {
   margin-left: 20px;
@@ -7493,7 +7495,8 @@ footer * {
      transition: all 0.2s ease-in-out;
 }
 .readme {
-  margin: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .readme img {
   max-width: 100%;
