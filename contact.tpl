@@ -30,7 +30,7 @@
 </div>
 <div class="container">
 
-  <form action="http://x.devport.co/email/contact/{{me.username}}" method="post" id="contact">
+  <form action="http://developerportfolio.com/email/contact/{{me.username}}" method="post" id="contact">
 
     <div class="row">
       <div class="col-md-4 col-md-offset-2">
